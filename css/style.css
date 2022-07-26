@@ -102,6 +102,29 @@ h5 {
   line-height: 30px;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+
+p.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.content {
+  margin: 160px 0;
+}
+
+.content p {
+  opacity: 0.78;
+  line-height: 30px;
+}
+
+.rounded {
+  border-radius: 0.55rem !important;
+}
 @media (max-width: 768px) {
   .hero-descr h1 {
     font-size: 48px;
