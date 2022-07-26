@@ -63,17 +63,43 @@ h5 {
 }
 
 .btn-custom {
-  padding: 18px 48px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
+}
+.btn-custom-xl {
+  padding: 18px 48px;
   font-size: 18px;
   line-height: 27px;
 }
 
+.btn-custom-md {
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .btn-primary-custom {
   color: #fff;
-  background: #6c63ff;
+  background: var(--primary);
+}
+
+.btn-custom-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.projects h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+
+.projects p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
