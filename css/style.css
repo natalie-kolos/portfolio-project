@@ -255,6 +255,53 @@ footer .social-links a:hover {
   background: var(--primary);
 }
 
+.custom-switch {
+  padding: 7px;
+  margin-left: 40px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.dark-mode {
+  background-color: #2b2b34;
+  color: white;
+}
+.dark-mode .navbar-custom,
+.dark-mode .hero,
+.dark-mode .contact-cta {
+  background-color: #1b1b23;
+}
+
+.dark-mode footer .email-link {
+  color: white;
+}
+
+.dark-mode .navbar-brand path {
+  fill: white;
+}
+.dark-mode .navbar-nav .active > .nav-link,
+.dark-mode .navbar-nav .nav-link.active,
+.dark-mode .navbar-nav .nav-link.show,
+.dark-mode .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+.dark-mode .navbar-nav .nav-link {
+  color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5 {
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   .hero-descr h1 {
     font-size: 48px;
