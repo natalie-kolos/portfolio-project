@@ -122,19 +122,57 @@ p.subtitle {
   line-height: 30px;
 }
 
+.content-title {
+  margin-bottom: 106px;
+}
+
 .rounded {
   border-radius: 0.55rem !important;
 }
+.project-card {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.project-card img {
+  margin-bottom: 16px;
+}
+
+.project-card h2 {
+  font-family: var(--font-family-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
 @media (max-width: 768px) {
   .hero-descr h1 {
     font-size: 48px;
     line-height: 56px;
     margin-bottom: 12px;
   }
+  h1 {
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .content {
+    margin: 80px 0;
+  }
 
   .hero-descr span {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .content-title {
+    margin-bottom: 56px;
   }
 
   .hero-descr p {
